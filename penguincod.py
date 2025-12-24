@@ -1,4 +1,3 @@
-import sklearn
 import joblib
 import numpy as np
 import pandas as pd
@@ -28,5 +27,6 @@ if btn :
     if pred == 2 :
         answer = "Chinstrap" 
     st.success(answer)
+
 
 
